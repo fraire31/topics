@@ -1,0 +1,210 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+}
+
+header > nav > h3{
+	padding: 1%;
+}
+
+header > nav > h3{
+	display: inline-block;
+}
+
+header > nav > div#menuButton{
+	padding-top: 1%;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+header > nav > div#menuButton > div{
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
+}
+
+/*INSIDE DROP DOWN INSIDE*/
+.allWhite{
+	background-color: white;
+	border: 1px dotted grey;
+	height: 30vh!important;
+}
+
+
+div#men{
+	height: 5px;
+	background-color: white;
+	position: absolute;
+	width: 30%;
+	transform: translateX(230%);
+	z-index: 1000;
+	text-align: center;
+
+}
+
+div#men > h1 , ul{
+	background-color: white;
+}
+
+.fa-times-circle{
+	color: #FF0080;
+	font-size: 25px;
+	float: left;
+}
+
+div#men > ul > li{
+	padding: 12px 0;
+}
+
+
+/*DROP DOWN CSS DROP DOWN*/
+
+div.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color:white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.newdropdownStyle{
+	display:none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.toggleDisplay{
+	display: block;
+}
+
+div.dropdown-content a{
+	text-transform: lowercase;
+	float: none;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+	color: black;
+}
+
+
+div#men > ul > li > a{
+	color: black
+}
+
+div#men > ul{
+	list-style: none;
+}
+
+div#men > ul > li > div > img{
+	width: 40%;
+}
+
+/*CAROUSEL CAROUSEL CAROUSEL STYLING*/
+section.carousel{
+	padding: 0;
+}
+
+div.mt-3{
+	padding:0;
+}
+
+div.carousel-inner img{
+	width: 100%;
+	height: 75vh;
+}
+/*END  CAROUSEL END  CAROUSEL*/
+
+
+/* TOPICS TOPICS TOPICS */
+section#tops{
+	text-align: center;
+}
+
+/* DIV SIZE AND IMAGE SIZE*/
+section#tops > div.container > div.holding{
+	margin: 8%;
+}
+
+section#tops > div.container > div.holding > div{
+	display: inline-block;
+	margin: 0 1%;
+}
+
+section#tops > div.container > div.holding > div.large{
+	width: 60%;
+	overflow: hidden;
+}
+
+section#tops > div.container > div.holding > div.large > a > img{
+	width: 100%;
+}
+
+section#tops > div.container > div.holding > div.sm{
+	width: 35%;
+	overflow: hidden;
+}
+
+section#tops > div.container > div.holding > div.sm{
+	transform: translateY(-40%);
+}
+
+section#tops > div.container > div.holding > div.ll{
+	transform: translateY(-28%);
+}
+
+section#tops > div.container > div.holding > div.less{
+	transform: translateY(-17%)!important;
+}
+
+section#tops > div.container > div.holding > div.sm > a > img{
+	width: 100%;
+}
+
+/*END OF DIV AND IMAGE SIZING END*/
+
+
+
+/* COLOR AND FONT SIZE OF IMAGE TITLES */
+section#tops > div.container > div.holding > div > p.title{
+	color: #FF0080;
+
+}
+
+section#tops > div.container > div.holding > div > p.titleTwo{
+	font-weight: 900;
+}
+
+/* HOT TOP SELECTION */
+section#hotTopics{
+	margin: 2% auto;
+}
+section#hotTopics > h1{
+	text-align: center;
+}
+
+section#hotTopics > ul{
+	list-style: none;
+	font-size: 25px;
+	text-align: center;
+}
+
+section#hotTopics > ul > li{
+	margin: 1% auto;
+}
+
+section#hotTopics > ul > li > a{
+	color: black;
+}
+
+section#hotTopics > ul > li > a:hover{
+	color:#FF0080;
+}
+
